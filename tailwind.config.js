@@ -53,7 +53,41 @@ export default {
         "on-primary-fixed-variant": "#0e5138",
         "secondary-container": "#ffab69",
         "surface-tint": "#2c694e",
-        "on-secondary-fixed-variant": "#6f3800"
+        "on-secondary-fixed-variant": "#6f3800",
+        "border": "var(--border)",
+        "input": "var(--input)",
+        "ring": "var(--ring)",
+        "foreground": "var(--foreground)",
+        "card": {
+          "DEFAULT": "var(--card)",
+          "foreground": "var(--card-foreground)"
+        },
+        "popover": {
+          "DEFAULT": "var(--popover)",
+          "foreground": "var(--popover-foreground)"
+        },
+        "muted": {
+          "DEFAULT": "var(--muted)",
+          "foreground": "var(--muted-foreground)"
+        },
+        "accent": {
+          "DEFAULT": "var(--accent)",
+          "foreground": "var(--accent-foreground)"
+        },
+        "destructive": {
+          "DEFAULT": "var(--destructive)",
+          "foreground": "var(--destructive-foreground)"
+        },
+        "sidebar": {
+          "DEFAULT": "var(--sidebar)",
+          "foreground": "var(--sidebar-foreground)",
+          "primary": "var(--sidebar-primary)",
+          "primary-foreground": "var(--sidebar-primary-foreground)",
+          "accent": "var(--sidebar-accent)",
+          "accent-foreground": "var(--sidebar-accent-foreground)",
+          "border": "var(--sidebar-border)",
+          "ring": "var(--sidebar-ring)"
+        }
       },
       borderRadius: {
         "DEFAULT": "0.25rem",
